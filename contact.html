@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/titleLogo.svg" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phood Creative</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index"><img class="logo" src="/images/phood.svg" alt="Phood"></a>
+        <button data-mdb-button-init class="navbar-toggler first-button" type="button" data-mdb-collapse-init
+          data-mdb-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="animated-icon1"><span></span><span></span><span></span></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  <!-- gallery section -->
+  <div class="contact-container">
+    <div class="contact-form">
+        <h2>ONLINE INQUIRY</h2>
+        <form action="https://example.com/contact" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="interest">Select An Interest</label>
+            <select id="interest" name="interest">
+                <option value="photography">Photography</option>
+                <option value="prints">Prints</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"  required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <div class="contact-details">
+        <h2>CONTACT DETAILS</h2>
+        <p>michelle@signaturerealtynj.com<br>(908) 686-1200</p>
+        <p><span>Westfield</span>233 North Avenue E.<br>Westfield, NJ 07090</p>
+        <p><span>Summit</span>357 Springfield Ave.<br>Short Hills, NJ 07901</p>
+        <p><span>Short Hills Office</span>549 Millburn Ave.<br>Short Hills, NJ 07078</p>
+    </div>
+</div>
+
+    <!-- footer -->
+
+      <div class="footer">
+       <p> &copy; 2024 PHOOD CREATIVE | FOOD PHOTOGRAPHER | WEBSITE BY <span>CREATIVES</span></p>
+      </div>
+
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+ 
+  </body>
+</html>

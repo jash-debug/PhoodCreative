@@ -16,7 +16,7 @@ export default defineConfig({
         // editorial: 'editorial-portfolio.html',
         // contact: 'contact.html',
         // drinks: 'drinks-portfolio.html',
-        // featured: 'featured-projects.html'
+        contact : 'contact.html'
       }
     }
   }

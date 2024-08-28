@@ -21,6 +21,7 @@ p {
 
 /* nav section */
 .navbar {
+  padding: 0 2em;
   width: 100vw;
   position: fixed;
   z-index: 3;
@@ -316,6 +317,10 @@ span {
 @media (max-width: 768px) {
   .div3,.div6,.div9,.div12,.div13,.div16 {
     display: none;
+  }
+
+  .navbar {
+    padding: 0.5rem;
   }
 
   .navbar-brand,.nav-link,.text-section p{
