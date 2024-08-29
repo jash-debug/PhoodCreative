@@ -302,7 +302,7 @@ img {
 .footer p {
   text-align: center;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
@@ -352,6 +352,6 @@ span {
   }
 
   .footer p {
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
 }
