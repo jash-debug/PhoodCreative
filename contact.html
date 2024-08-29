@@ -41,28 +41,31 @@
   <div class="contact-container">
     <div class="contact-form">
         <h2>ONLINE INQUIRY</h2>
-        <form action="https://example.com/contact" method="POST">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+        <form name="contact" method="POST" data-netlify="true">
+  <!-- Hidden input field to specify the form name -->
+  <input type="hidden" name="form-name" value="contact" />
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
 
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" required>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
 
-            <label for="interest">Select An Interest</label>
-            <select id="interest" name="interest">
-                <option value="photography">Photography</option>
-                <option value="prints">Prints</option>
-                <option value="other">Other</option>
-            </select>
+  <label for="phone">Phone</label>
+  <input type="tel" id="phone" name="phone" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message"  required></textarea>
+  <label for="interest">Select An Interest</label>
+  <select id="interest" name="interest">
+    <option value="photography">Photography</option>
+    <option value="prints">Prints</option>
+    <option value="other">Other</option>
+  </select>
 
-            <button type="submit">Send Message</button>
-        </form>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
     </div>
     <div class="contact-details">
         <h2>CONTACT DETAILS</h2>
