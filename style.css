@@ -110,7 +110,7 @@ p {
   justify-content: center;
   width: 100%;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
   position: relative;
   flex: 1;
   height: 100%; /* Slideshow takes full height of the container */

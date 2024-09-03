@@ -2,7 +2,7 @@
     width: 100%;
     background-color: #fff;
     padding-top: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -78,7 +78,7 @@ h1 {
 
 .contact-details img {
     border-radius: 15px;
-    box-shadow: 0px 0px 3px black; 
+    /* box-shadow: 0px 0px 3px black;  */
     margin-bottom: 1rem;
 }
 
