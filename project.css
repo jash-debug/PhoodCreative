@@ -7,8 +7,9 @@
   flex-wrap: wrap;
 }
 
-.project > div {
-  width: 20px;
+.project > div:hover,
+.project > div:hover img {
+  flex: 2;
   width: auto;
 }
 
@@ -16,23 +17,31 @@
   width: 15vw;
 }
 
-
 @media (min-width: 769px) {
-    .bottom {
-        position: absolute; /* Use absolute positioning */
-        bottom: 0; /* Position the div at the bottom */
-        left: 0; /* Ensure the div starts at the left edge */
-        width: 100%; /* Make the div span the full width */
-        display: block; /* Keep it a block-level element */
-      }
+  .bottom {
+    position: absolute; /* Use absolute positioning */
+    bottom: 0; /* Position the div at the bottom */
+    left: 0; /* Ensure the div starts at the left edge */
+    width: 100%; /* Make the div span the full width */
+    display: block; /* Keep it a block-level element */
+  }
 }
-
 
 @media (max-width: 769px) {
   .project {
+    padding-top: 5rem;
     height: auto;
   }
   .project > div img {
     width: auto;
   }
+
+  .project > div {
+    margin: 2rem;
+  }
+
+  .project > div:hover{
+    margin: 10px;
+  }
+
 }
