@@ -15,7 +15,7 @@ export default defineConfig({
         main: 'index.html',
         // editorial: 'editorial-portfolio.html',
         // contact: 'contact.html',
-        // drinks: 'drinks-portfolio.html',
+        project: 'project.html',
         contact : 'contact.html'
       }
     }

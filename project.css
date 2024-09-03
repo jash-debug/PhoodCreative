@@ -1,0 +1,38 @@
+.project {
+  display: flex;
+  height: 90vh;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project > div {
+  width: 20px;
+  width: auto;
+}
+
+.project > div img {
+  width: 15vw;
+}
+
+
+@media (min-width: 769px) {
+    .bottom {
+        position: absolute; /* Use absolute positioning */
+        bottom: 0; /* Position the div at the bottom */
+        left: 0; /* Ensure the div starts at the left edge */
+        width: 100%; /* Make the div span the full width */
+        display: block; /* Keep it a block-level element */
+      }
+}
+
+
+@media (max-width: 769px) {
+  .project {
+    height: auto;
+  }
+  .project > div img {
+    width: auto;
+  }
+}
