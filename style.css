@@ -2,7 +2,6 @@ html {
   font-size: 16px;
 }
 
-
 body {
   font-size: 1rem; /* 16px */
 }
@@ -27,7 +26,9 @@ p {
   z-index: 3;
 }
 
-.navbar-brand,.nav-link,.text-section p{
+.navbar-brand,
+.nav-link,
+.text-section p {
   font-size: 1.5rem;
 }
 
@@ -260,7 +261,7 @@ img {
 }
 
 .button a:hover {
-  background-color: orangered;
+  background-color: #c85205;
 }
 
 /* prefooter */
@@ -268,30 +269,45 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: azure;
+  gap: 1rem;
+  background-color: #233233;
+  font-weight: 600;
+  color: whitesmoke;
   padding: 1rem;
 }
 
-.portfolio > p {
-  font-size: 1.5rem;
+.insta {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.pre-footer > div {
-  flex-basis: 50%;
+.fa-brands {
+  color: #c85205;
   font-size: 2rem;
 }
 
-.pre-footer > div:first-child {
-  text-align: center;
+.insta a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.2rem;
 }
 
-.pre-footer > div:last-child {
+.portfolio {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 
+.portfolio > div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.portfolio > div > p {
+  font-size: 1.2rem;
+}
 
 /* footer */
 .footer {
@@ -305,17 +321,24 @@ img {
   font-size: 1rem;
 }
 
-
 span {
-  color: orangered;
+  color: #c85205;
 }
 
-
-
+.footer-logo {
+  background-color: #c85205;
+  padding: 0.7rem 0.5rem;
+  border-radius: 100%;
+}
 
 /* Responsive design for mobile view */
 @media (max-width: 768px) {
-  .div3,.div6,.div9,.div12,.div13,.div16 {
+  .div3,
+  .div6,
+  .div9,
+  .div12,
+  .div13,
+  .div16 {
     display: none;
   }
 
@@ -323,7 +346,9 @@ span {
     padding: 0.5rem;
   }
 
-  .navbar-brand,.nav-link,.text-section p{
+  .navbar-brand,
+  .nav-link,
+  .text-section p {
     font-size: 1rem;
   }
 
@@ -331,7 +356,8 @@ span {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .container, .pre-footer {
+  .container,
+  .pre-footer {
     flex-direction: column;
   }
 
@@ -346,12 +372,28 @@ span {
   .portfolio > p {
     font-size: 1rem;
   }
-  
+
   .pre-footer > div:last-child {
     gap: 1rem;
   }
 
   .footer p {
     font-size: 0.5rem;
+  }
+
+  .fa-brands {
+    font-size: 1.2rem;
+  }
+
+  .insta a {
+    font-size: 0.7rem;
+  }
+
+  .portfolio {
+    gap: 0.5rem;
+  }
+
+  .portfolio > div > p {
+    font-size: 0.7rem;
   }
 }
