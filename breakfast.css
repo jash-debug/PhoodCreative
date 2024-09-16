@@ -80,3 +80,15 @@
   object-fit: cover;
   /*   object-position: 50% 100%; */
 }
+
+@media (max-width: 768px) {
+  .div3,
+  .div6,
+  .div9,
+  .div12,
+  .div15,
+  .div18,
+  .div21{
+    display: none;
+  }
+}
