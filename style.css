@@ -49,7 +49,7 @@ p {
   height: 3px;
   width: 100%;
   background: #000;
-  border-radius: 9px;
+  /* border-radius: 9px; */
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
@@ -115,7 +115,7 @@ p {
   flex: 1;
   height: 100%; /* Slideshow takes full height of the container */
   overflow: hidden;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .slides {
@@ -126,7 +126,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Maintain aspect ratio and cover the area */
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .prev,
@@ -305,10 +305,14 @@ img {
   gap: 2rem;
 }
 
-.portfolio > div > p {
-  font-size: 1.2rem;
+.portfolio > div > a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
+.portfolio > div > a > p {
+  font-size: 1.2rem;
+}
 /* footer */
 .footer {
   color: white;
@@ -337,8 +341,9 @@ span {
   .div6,
   .div9,
   .div12,
-  .div13,
-  .div16 {
+  .div15,
+  .div18,
+  .div21{
     display: none;
   }
 
@@ -393,7 +398,7 @@ span {
     gap: 0.5rem;
   }
 
-  .portfolio > div > p {
+  .portfolio > div > a > p {
     font-size: 0.7rem;
   }
 }

@@ -13,7 +13,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        // editorial: 'editorial-portfolio.html',
+        breakfast: 'breakfast.html',
+        lunch: 'lunch.html',
+        supper: 'supper.html',
         // contact: 'contact.html',
         project: 'project.html',
         contact : 'contact.html'
