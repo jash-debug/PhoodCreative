@@ -54,13 +54,13 @@
 .div13 {
   grid-area: 9 / 3 / 11 / 4;
 }
-.div16 {
+.div18 {
   grid-area: 11 / 1 / 13 / 2;
 }
 .div17 {
   grid-area: 11 / 2 / 13 / 3;
 }
-.div18 {
+.div16 {
   grid-area: 11 / 3 / 13 / 4;
 }
 .div19 {
@@ -86,7 +86,6 @@
   .div6,
   .div9,
   .div12,
-  .div18,
   .div21{
     display: none;
   }
