@@ -92,6 +92,11 @@
     display: none;
   }
 
+  .div12,
+  .div15{
+    display: block;
+  }
+
   .parent {
     grid-template-columns: repeat(2, 1fr);
   }
