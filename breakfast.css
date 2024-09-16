@@ -45,13 +45,13 @@
 .div12 {
   grid-area: 7 / 3 / 9 / 4;
 }
-.div13 {
+.div15 {
   grid-area: 9 / 1 / 11 / 2;
 }
 .div14 {
   grid-area: 9 / 2 / 11 / 3;
 }
-.div15 {
+.div13 {
   grid-area: 9 / 3 / 11 / 4;
 }
 .div16 {
@@ -86,7 +86,6 @@
   .div6,
   .div9,
   .div12,
-  .div15,
   .div18,
   .div21{
     display: none;
