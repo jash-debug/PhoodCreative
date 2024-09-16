@@ -91,4 +91,8 @@
   .div21{
     display: none;
   }
+
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
