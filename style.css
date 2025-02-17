@@ -211,10 +211,30 @@ img {
   grid-template-rows: repeat(10, 1fr);
   /* grid-column-gap: 0px;
   grid-row-gap: 0px; */
-  gap: 5px;
+  gap: 10px;
 }
 
-.div1 {
+.div1 { grid-area: 1 / 1 / 3 / 2; }
+.div2 { grid-area: 1 / 2 / 3 / 3; }
+.div3 { grid-area: 1 / 3 / 3 / 4; }
+
+.div4 { grid-area: 3 / 1 / 5 / 2; }
+.div5 { grid-area: 3 / 2 / 5 / 3; }
+.div6 { grid-area: 3 / 3 / 5 / 4; }
+
+.div7 { grid-area: 5 / 1 / 7 / 2; }
+.div8 { grid-area: 5 / 2 / 7 / 3; }
+.div9 { grid-area: 5 / 3 / 7 / 4; }
+
+.div10 { grid-area: 7 / 1 / 9 / 2; }
+.div11 { grid-area: 7 / 2 / 9 / 3; }
+.div12 { grid-area: 7 / 3 / 9 / 4; }
+
+.div13 { grid-area: 9 / 1 / 11 / 2; }
+.div14 { grid-area: 9 / 2 / 11 / 3; }
+.div15 { grid-area: 9 / 3 / 11 / 4; }
+
+/* .div1 {
   grid-area: 1 / 1 / 2 / 2;
 }
 .div2 {
@@ -261,7 +281,7 @@ img {
 }
 .div16 {
   grid-area: 10 / 3 / 11 / 4;
-}
+} */
 
 .parent > div img {
   width: 100%;
@@ -368,8 +388,7 @@ span {
   .div6,
   .div9,
   .div12,
-  .div13,
-  .div16 {
+  .div15{
     display: none;
   }
 
@@ -430,6 +449,7 @@ span {
     justify-content: center;
     position: absolute;
     -webkit-text-stroke: 0.5px rgb(254, 254, 254);
+    visibility: hidden;
 
   }
 
