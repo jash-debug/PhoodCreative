@@ -460,4 +460,10 @@ span {
   .portfolio > div > a > p {
     font-size: 0.7rem;
   }
+
+  .container {
+    background-size: contain;
+  }
+
+
 }
