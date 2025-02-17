@@ -8,6 +8,10 @@ html {
   animation: bgMove 10s infinite alternate ease-in-out;
 }
 
+@-webkit-keyframes bgMove {
+  0% { background-position: center top; }
+  100% { background-position: center bottom; }
+}
 @keyframes bgMove {
   0% { background-position: center top; }
   100% { background-position: center bottom; }
