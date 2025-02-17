@@ -27,8 +27,7 @@ p {
 }
 
 .navbar-brand,
-.nav-link,
-.text-section p {
+.nav-link {
   font-size: 1.5rem;
 }
 
@@ -175,6 +174,19 @@ img {
   display: block;
 }
 
+.title-style {
+  font-size: 1rem;
+  color: rgb(200, 195, 195);
+  text-align: center;
+}
+
+.title-heading {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+}
+
 /* gallery section  */
 
 .parent {
@@ -305,7 +317,6 @@ img {
   gap: 1rem;
 }
 
-
 .portfolio > div > a {
   text-decoration: none;
   color: whitesmoke;
@@ -343,14 +354,13 @@ span {
   .div9,
   .div12,
   .div13,
-  .div16{
+  .div16 {
     display: none;
   }
 
-  h2{
-    font-size:1rem;
+  h2 {
+    font-size: 1rem;
   }
-
 
   .hidden {
     display: none;
@@ -361,9 +371,16 @@ span {
   }
 
   .navbar-brand,
-  .nav-link,
-  .text-section p {
+  .nav-link {
     font-size: 1rem;
+  }
+
+  .title-style {
+    font-size: 0.7rem;
+  }
+  
+  .title-heading {
+    font-size: 3rem;
   }
 
   .parent {
