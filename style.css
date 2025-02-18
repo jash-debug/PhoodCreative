@@ -412,6 +412,10 @@ span {
     display: none;
   }
 
+  nav {
+    top: 0;
+  }
+
   .navbar {
     padding: 0.5rem;
   }
