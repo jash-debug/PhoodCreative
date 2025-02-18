@@ -41,6 +41,10 @@ p {
   z-index: 3;
 }
 
+nav {
+  top: 0;
+}
+
 .navbar-brand,
 .nav-link {
   font-size: 1.5rem;
@@ -410,10 +414,6 @@ span {
   
   .hidden {
     display: none;
-  }
-
-  nav {
-    top: 0;
   }
 
   .navbar {
